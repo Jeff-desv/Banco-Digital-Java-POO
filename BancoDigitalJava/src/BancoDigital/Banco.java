@@ -2,5 +2,10 @@ package BancoDigital;
 
 public class Banco {
 	
-	public String nome;
+	private String nome;
+
+	public String getNome() {
+		return nome;
+	}
+	
 }

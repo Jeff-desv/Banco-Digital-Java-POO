@@ -1,46 +1,5 @@
 package BancoDigital;
 
-public class ContaCorrente {
-
-	private int agencia;
-	private int numero;
-	private double saldo;
-	
-	public void sacar() {
-		
-	}
-	
-	public void depositar() {
-		
-	}
-	
-	public void transferir() {
-		
-	}
-
-	public int getAgencia() {
-		return agencia;
-	}
-
-	public void setAgencia(int agencia) {
-		this.agencia = agencia;
-	}
-
-	public int getNumero() {
-		return numero;
-	}
-
-	public void setNumero(int numero) {
-		this.numero = numero;
-	}
-
-	public double getSaldo() {
-		return saldo;
-	}
-
-	public void setSaldo(double saldo) {
-		this.saldo = saldo;
-	}
-	
-	
+public class ContaCorrente extends Conta {
+	//Usamos o Extends para que a Conta Corrente Herde os dados da Class Conta
 }
